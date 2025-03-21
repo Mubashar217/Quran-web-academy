@@ -1,13 +1,13 @@
 import Card from "./../card/Card";
 export default function About() {
   return (
-    <div className="about text-center font-bold text-3xl py-4">
+    <div className="about bg-green-400 text-center font-bold text-3xl py-4">
       <p>About Us</p>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4grid lg-cols-4 p-25 lg:gap-3 md:gap-3">
         <Card
           card="Learn Quran Online - Anywhere, Anytime"
           disc="Join our interactive online Quran classes. Learn Tajweed, Tafsir, and Quranic studies from qualified teachers at your convenience, no matter where you are."
-          imgSrc="/quran.jpg"
+          imgSrc="/new2.jpg"
           first="Learn with zain"
           second="online quran academy"
           third="quran.pk"

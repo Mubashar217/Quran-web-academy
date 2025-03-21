@@ -2,7 +2,7 @@ import React from "react";
 
 function Card2(props) {
   return (
-    <div class="w-full max-w-sm bg-white border  rounded-2xl shadow-sm dark:bg-gray-800 dark:border-gray-700 hover:bg-blue-700">
+    <div class="w-full max-w-sm bg-grey-500 rounded-2xl shadow-xl  hover:bg-green-400 m-4">
       <div className="flex justify-end px-4 pt-4">
         <button
           id="dropdownButton"
@@ -59,10 +59,10 @@ function Card2(props) {
           src={props.imgSrc2}
           alt="Bonnie image"
         />
-        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">
+        <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-black">
           {props.title2}
         </h5>
-        <span className="text-sm text-gray-500 dark:text-gray-400 text-center">
+        <span className="text-sm text-gray-500 dark:text-black text-center">
           {props.disc2}
         </span>
         <div className="flex mt-4 md:mt-6">

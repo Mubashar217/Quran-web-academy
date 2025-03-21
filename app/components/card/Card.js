@@ -2,11 +2,11 @@ import React from 'react'
 
 function Card(props) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white hover:bg-black cursor-pointer m-4">
   <img className="w-full" src={props.imgSrc} alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
-    <div className="font-bold text-xl mb-2">{props.card}</div>
-    <p className="text-gray-700 text-base">
+    <div className="font-bold text-xl mb-2 hover:text-white">{props.card}</div>
+    <p className="text-gray-700 text-base hover:text-white ">
       {props.disc}
     </p>
   </div>
@@ -18,4 +18,4 @@ function Card(props) {
 </div>
   )
 }
-export default  Card
+export default  Card ;

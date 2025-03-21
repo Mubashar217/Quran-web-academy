@@ -10,15 +10,15 @@ function Navbar(props) {
   };
 
   return (
-    <div className="flex bg-[grey] h-14 items-center px-6">
+    <div className="flex bg-blue-100 h-14 items-center px-6">
       <div className="name">
-        <p className="text-2xl font-bold text-black hover:text-orange-200">
+        <p className="text-2xl font-bold text-black hover:text-white">
           The Quran Academy
         </p>
       </div>
       <div className="ok1 ml-auto">
         <div className="lg:hidden flex justify-end items-center">
-          <button onClick={toggleMenu} className="text-white">
+          <button onClick={toggleMenu}>
             <svg
               className="w-6 h-6"
               fill="none"
@@ -36,8 +36,8 @@ function Navbar(props) {
           </button>
         </div>
         <ul
-          className={`flex justify-end space-x-6 font-bold lg:flex ${
-            isMenuOpen ? "inline-block" : "hidden"
+          className={`flex justify-end space-x-6 font-bold lg:flex  ${
+            isMenuOpen ? "block" : "hidden"
           } lg:block`}
         >
           <li>

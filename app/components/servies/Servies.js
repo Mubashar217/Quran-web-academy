@@ -3,7 +3,7 @@ import Card2 from "./../card2/Card2";
 
 function Servies(props) {
   return (
-    <div className="servies">
+    <div className="servies bg-blue-200">
       <p className="font-bold text-2xl text-center">OUR SERVICES</p>
       <br />
       <p className="font-bold text-5xl text-center">
@@ -59,4 +59,4 @@ function Servies(props) {
   );
 }
 
-export default Servies;
+export default Servies ;
