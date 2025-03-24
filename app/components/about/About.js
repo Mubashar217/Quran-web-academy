@@ -1,7 +1,7 @@
 import Card from "./../card/Card";
 export default function About() {
   return (
-    <div className="about bg-green-400 text-center font-bold text-3xl py-4 ">
+    <div className="about bg-orange-300 text-center font-bold text-3xl py-4 ">
       <p>About Us</p>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4grid lg-cols-4 p-25 lg:gap-3 md:gap-3">
         <Card

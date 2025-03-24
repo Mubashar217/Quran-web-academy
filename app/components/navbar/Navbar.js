@@ -61,12 +61,12 @@ function Navbar(props) {
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-orange-200">
+            <a href="/login" className="hover:text-orange-200">
               Student portal
             </a>
           </li>
           <li>
-            <a href="/" className="hover:text-orange-200">
+            <a href="/student" className="hover:text-orange-200">
               Sign in
             </a>
           </li>
