@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card(props) {
   return (
-    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg bg-white hover:bg-black cursor-pointer m-4">
+    <div className="max-w-sm  rounded-2xl overflow-hidden shadow-lg bg-white hover:bg-black cursor-pointer m-4 ">
   <img className="w-full" src={props.imgSrc} alt="Sunset in the mountains"/>
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2 hover:text-white">{props.card}</div>

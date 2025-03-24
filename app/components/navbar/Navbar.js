@@ -12,8 +12,8 @@ function Navbar(props) {
   return (
     <div className="flex bg-blue-100 h-14 items-center px-6">
       <div className="name">
-        <p className="text-2xl font-bold text-black hover:text-white">
-          The Quran Academy
+        <p className="text-2xl font-bold text-black hover:text-green-400">
+         The Quran Academy
         </p>
       </div>
       <div className="ok1 ml-auto">
